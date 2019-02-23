@@ -7,8 +7,5 @@
 # }
 
 def select_winner(passengers)
-  passengers.each do |key,value|
-      puts value
-    
-  end
+  puts passengers[:suite_a]
 end
